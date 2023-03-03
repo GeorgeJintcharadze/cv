@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .bio h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .bio p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .details {
+    margin-top: 20px;
+  }
+  
+  .details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .details li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .details li strong {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  body {
+    background-image: url("/images/backgroundwarm_collors4k_6e8dfccc-0710-4272-a0a2-d1433c94470e.png");
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+  }
+
+  .bio {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .bio {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  
+  .bio {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e6e6e6;
+    padding: 20px;
+  }
+  .container {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("your-image.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .bio {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #333;
+    padding: 20px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .bio {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #333;
+    padding: 20px;
+    grid-column: 1 / span 2;
+  }
+  
+  .profile-img {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 2;
+  }
+  
+  .profile-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    background-color: #f7f7f7;
+  }
+  
+  .bio {
+    background-color: #fff;
+    color: #333;
+  }
+
+  .bio {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+
+  .container {
+    background: linear-gradient(to bottom, #29323c, #485563);
+  }
+  
+  .bio {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  .bio {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.bio {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+    background-color: #4CAF50; /* Default background color */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  /* Style the button when it is being clicked or pressed */
+  .button:active {
+    background-color: #3e8e41;
+    transform: translateY(1px); /* Add a slight vertical shift to create a pressed effect */
+  }
+  
